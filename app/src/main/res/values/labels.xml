@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_main_edit">編集</string>
+    <string name="label_main_finish">完了</string>
+    <string name="label_fragment_infared_light_input_text">リモコンをIRKitに向けて、ボタンを短く押してください</string>
+</resources>

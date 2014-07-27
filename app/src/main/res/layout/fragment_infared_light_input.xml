@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/imageView"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_remote"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_fragment_infared_light_input_text"
+        android:textSize="@dimen/font_medium"
+        android:layout_marginBottom="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="52dp"/>
+</LinearLayout>
